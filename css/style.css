@@ -197,14 +197,31 @@ main .skills {
 }
 
 .skills .judul-skills {
+  padding-top: 4rem;
   display: flex;
   color: white;
+  font-size: 1.4rem;
   justify-content: center;
 }
 
 .skills .konten-skills {
+  padding-top: 3rem;
+}
+
+.skills .row-1,
+.row-2 {
   display: flex;
   justify-content: center;
+}
+
+.skills .row-2 {
+  padding-top: 2rem;
+}
+
+.skills .isi {
+  width: 20%;
+  color: white;
+  text-align: center;
 }
 
 /* scroll */
