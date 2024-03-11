@@ -1,0 +1,125 @@
+:root {
+  --dark: #171717;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  height: 100vh;
+}
+
+/* nav */
+header .row1 {
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  width: 882px;
+  color: white;
+}
+
+.logo h2 {
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.nav-container {
+  display: flex;
+}
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #5d5d5d;
+}
+.nav-list ul {
+  display: flex;
+  gap: 3rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+.nav-container .nav-list li {
+  list-style-type: none;
+}
+.nav-container .nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+/* konten */
+main .home {
+  height: 732px;
+}
+
+main .row1 {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 38%;
+  height: 100%;
+  background-color: var(--dark);
+}
+
+.konten-gambar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  /* margin-right: 36rem;
+  background-color: blue;
+  width: 880px;
+  height: 500px; */
+}
+.konten-gambar .gambar {
+  width: 893px;
+  height: 100%;
+  /* background-color: blue; */
+  background-image: url("../img/konten.jpg");
+  background-size: cover; /* Menutupi seluruh area dengan gambar */
+  background-position: top;
+}
+
+.teks-head {
+  width: 50%;
+  margin-left: 11rem;
+  /* background-color: blue; */
+  /* height: 100%; */
+  position: absolute;
+  z-index: 12;
+  color: white;
+  bottom: 8rem;
+  font-size: 2rem;
+}
+.teks-head h1 {
+  font-weight: 800;
+}
+.teks-head span {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.teks-head .btn {
+  background-color: #fef201;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+/* scroll */
+.scroll {
+  padding-bottom: 50rem;
+}
