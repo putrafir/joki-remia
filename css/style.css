@@ -224,6 +224,186 @@ main .skills {
   text-align: center;
 }
 
+/* education */
+
+.education {
+  width: 100%;
+  height: 1100px;
+  background-color: #ececec;
+  /* color: white; */
+  padding: 4rem;
+}
+
+.education .judul-education h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 10px 50px;
+  width: 50%;
+  position: relative;
+}
+
+.teks-box {
+  padding: 20px 30px;
+  background-color: var(--dark);
+  position: relative;
+  border-radius: 6px;
+  color: white;
+}
+.teks-box h2 {
+  font-weight: 700;
+}
+
+.teks-box small {
+  display: flex;
+  margin-top: -12px;
+}
+
+.teks-box p {
+  font-weight: 400;
+}
+
+.left-container {
+  left: 0;
+}
+.right-container {
+  left: 50%;
+}
+
+.lingkaran {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: var(--dark);
+  position: absolute;
+  right: -28px;
+  top: 32px;
+  z-index: 10;
+}
+
+.right-container .lingkaran {
+  left: -23px;
+}
+
+.timeline {
+  position: relative;
+  /* max-width: 1200px;
+  margin: 100px auto; */
+}
+
+.timeline::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 100%;
+  background-color: var(--dark);
+  margin-left: -3;
+  top: 0;
+  left: 50%;
+  z-index: 99;
+}
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid var(--dark);
+  right: -15px;
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid var(--dark);
+  left: -15px;
+}
+
+/* contact */
+.contact {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background-color: var(--dark);
+  z-index: 3;
+}
+
+.contact .judul-contact {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.contact .judul-contact h2 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.contact .judul-contact span {
+  position: absolute;
+  width: 8%;
+
+  bottom: 4rem;
+  background-color: var(--kuning);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--dark);
+}
+
+.data-diri {
+  position: relative;
+  margin-right: 9rem;
+  margin-left: 9rem;
+}
+.isi-contact {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+}
+
+.isi-contact .container {
+  position: relative;
+  display: flex;
+  gap: 14px;
+  color: white;
+}
+.isi-contact .container h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sosmed {
+  display: flex;
+  margin-top: 4rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  padding-top: 14px;
+  font-size: 14px;
+  width: 100%;
+  height: 100px;
+  background-color: var(--dark);
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: white;
+}
+
 /* scroll */
 .scroll {
   padding-bottom: 50rem;
